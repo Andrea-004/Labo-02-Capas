@@ -2,9 +2,9 @@ spring:
   application:
     name: Andrea_Orellana_Lab2
   datasource:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   jpa:
     show-sql: false
